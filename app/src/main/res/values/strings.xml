@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">CygSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Refresh-->
+    <string name="hello">Hello World, XListViewActivity!</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="group">分组</string>
+    <string name="all">全部</string>
+
+    <string name="school">学校专区</string>
+    <string name="activity">活动专区</string>
+    
+    <!--chat聊天-->
+    <string name="str_recorder_normal">按住 说话</string>
+    <string name="str_recorde_recordering">松开 结束</string>
+    <string name="str_recorder_want_cancel">松开手指 取消发送</string>
+
+    <!--二级下拉框-->
+    <string-array name="province">
+        <item>省份</item>
+        <item>江西</item>
+        <item>浙江</item>
+        <item>广东</item>
+        <item>湖南</item>
+    </string-array>
+
+    <string-array name="defaulty">
+        <item>城市</item>
+    </string-array>
+
+    <string-array name="city_jx">
+        <item>城市</item>
+        <item>南昌</item>
+        <item>上饶</item>
+        <item>萍乡</item>
+        <item>九江</item>
+    </string-array>
+
+    <string-array name="city_zj">
+        <item>城市</item>
+        <item>杭州</item>
+        <item>温州</item>
+        <item>金华</item>
+        <item>宁波</item>
+    </string-array>
+
+    <string-array name="city_gd">
+        <item>城市</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>珠海</item>
+        <item>佛山</item>
+    </string-array>
+
+    <string-array name="city_hn">
+        <item>城市</item>
+        <item>长沙</item>
+        <item>衡阳</item>
+        <item>邵阳</item>
+        <item>株洲</item>
+    </string-array>
+
+
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">通过%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="accessibility_content_view">网页视图</string>
+    <string name="accessibility_date_picker_month">月</string>
+    <string name="accessibility_date_picker_week">周</string>
+    <string name="accessibility_date_picker_year">年</string>
+    <string name="accessibility_datetime_picker_date">日期</string>
+    <string name="accessibility_datetime_picker_time">时间</string>
+    <string name="accessibility_time_picker_ampm">上午/下午</string>
+    <string name="accessibility_time_picker_hour">小时</string>
+    <string name="accessibility_time_picker_milli">毫秒</string>
+    <string name="accessibility_time_picker_minute">分钟</string>
+    <string name="accessibility_time_picker_second">秒</string>
+    <string name="actionbar_share">分享</string>
+    <string name="actionbar_web_search">网页搜索</string>
+    <string name="color_picker_button_black">黑色</string>
+    <string name="color_picker_button_blue">蓝色</string>
+    <string name="color_picker_button_cancel">取消</string>
+    <string name="color_picker_button_cyan">青色</string>
+    <string name="color_picker_button_green">绿色</string>
+    <string name="color_picker_button_magenta">洋红色</string>
+    <string name="color_picker_button_more">更多</string>
+    <string name="color_picker_button_red">红色</string>
+    <string name="color_picker_button_set">设置</string>
+    <string name="color_picker_button_white">白色</string>
+    <string name="color_picker_button_yellow">黄色</string>
+    <string name="color_picker_dialog_title">选择颜色</string>
+    <string name="color_picker_hue">色调</string>
+    <string name="color_picker_saturation">饱和度</string>
+    <string name="color_picker_value">值</string>
+    <string name="copy_to_clipboard_failure_message">未能复制到剪贴板</string>
+    <string name="date_picker_dialog_clear">清除</string>
+    <string name="date_picker_dialog_other_button_label">其他</string>
+    <string name="date_picker_dialog_set">设置</string>
+    <string name="date_picker_dialog_title">设置日期</string>
+    <string name="date_time_picker_dialog_title">设置日期和时间</string>
+    <string name="low_memory_error">内存不足，无法完成上一操作</string>
+    <string name="media_player_error_button">确定</string>
+    <string name="media_player_error_text_invalid_progressive_playback">抱歉，此视频无法流式传输到该设备。</string>
+    <string name="media_player_error_text_unknown">抱歉，此视频无法播放。</string>
+    <string name="media_player_error_title">无法播放视频</string>
+    <string name="media_player_loading_video">加载视频</string>
+    <string name="month_picker_dialog_title">设置月份</string>
+    <string name="opening_file_error">无法打开所选文件</string>
+    <string name="profiler_error_toast">无法启动分析器</string>
+    <string name="profiler_no_storage_toast">外部存储设备尚未准备就绪，无法启动分析器</string>
+    <string name="profiler_started_toast">分析器已启动</string>
+    <string name="profiler_stopped_toast">分析器已完成操作。请在 %1$s 中查看分析结果。</string>
+    <string name="time_picker_dialog_am">上午</string>
+    <string name="time_picker_dialog_hour_minute_separator">:</string>
+    <string name="time_picker_dialog_minute_second_separator">:</string>
+    <string name="time_picker_dialog_pm">下午</string>
+    <string name="time_picker_dialog_second_subsecond_separator">.</string>
+    <string name="time_picker_dialog_title">设置时间</string>
+    <string name="week_picker_dialog_title">设置星期</string>
+
+</resources>

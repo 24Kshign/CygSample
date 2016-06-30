@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cqh8_background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/fs_btn_change_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="变换button"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_webview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="使用WebView打开任意网页"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="侧滑2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="抽屉式侧滑"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_guide"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="引导页"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_two_menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="二级联动菜单"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_three_menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="三级联动菜单"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_automatic_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="自动登陆"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_msg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="手机验证码"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fs_btn_press"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="按钮是否可按"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/fs_btn_we_chat"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="微信分享"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/fs_btn_search"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="过滤搜索框"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/fs_btn_custom_search"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="自定义过滤搜索框"
+        android:layout_height="40dp" />
+
+</LinearLayout>

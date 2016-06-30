@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cqh8_background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/activity_btn_viewpager_paging"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ViewPager左右滑动分页"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_viewpager_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="侧滑"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ViewFlipper左右滑动"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_chat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点我进入聊天"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="自定义dialog"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_custom_popupwindow"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="自定义popupwindow"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_custom_progress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="自定义progressDialog"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点我震动"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_vibration_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点我震动消失"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_voice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点我发声"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_voice_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点我声音消失"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_save_cache"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="保存搜索历史"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/activity_btn_list_filter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="listview过滤"
+        android:textSize="16sp" />
+</LinearLayout>

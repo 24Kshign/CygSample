@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ap_tv_user"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="用户名："
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ap_et_user"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/ap_tv_user"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ap_tv_pwd"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="密    码："
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ap_et_pwd"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_toRightOf="@+id/ap_tv_pwd"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ap_btn_login"
+        android:layout_width="match_parent"
+        android:text="登陆"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_bg"
+        android:textSize="20sp"
+        android:layout_height="40dp" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jack.activity">
+
+    <!--录音的权限-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--读写文件的权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--手机震动的权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.example.jack.utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity
+            android:name=".SimpleRecyclerviewActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ViewPagerPagingActivity" />
+        <activity android:name=".ViewFlipperActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".ChangeButtonActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".SlideMenuActivity" />
+        <activity android:name=".SlidindMenuActivity" />
+        <activity android:name=".DrawerLayoutActivity" />
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".AutomaticLoginActivity" />
+        <activity android:name=".ProvinceTwoMenuActivity" />
+        <activity android:name=".ThreeMenuActivity" />
+        <activity android:name=".PressActivity" />
+        <activity android:name=".WeChatShareActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".AutoTextView" />
+        <activity android:name=".SaveCacheActivity" />
+        <activity android:name=".ListFilterActivity" />
+        <activity
+            android:name=".StartModeActivity"
+            android:launchMode="singleTask" />
+
+        <activity android:name=".SecondTestActivity" />
+    </application>
+
+</manifest>

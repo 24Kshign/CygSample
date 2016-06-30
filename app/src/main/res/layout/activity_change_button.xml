@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cqh8_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:id="@+id/acb_rv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/acb_btn_voice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <Button
+                android:id="@+id/acb_btn_send_msg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="发送"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/acb_btn_plus"
+            android:layout_width="40dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/acb_btn_express"
+            android:layout_width="40dp"
+            android:layout_toRightOf="@+id/acb_btn_plus"
+            android:background="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/acb_et_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/acb_btn_express"
+            android:layout_toLeftOf="@+id/acb_rv_button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

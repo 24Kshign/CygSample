@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cqh8_background"
+    android:paddingTop="20dp">
+
+    <EditText
+        android:id="@+id/la_et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:inputType="number"
+        android:maxLength="11"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/la_et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码(6-16位)"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/la_btn_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="登陆"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/la_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="注册"
+        android:textSize="20sp" />
+
+</LinearLayout>

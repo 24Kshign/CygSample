@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cqh8_background"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/aal_tv_user"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="账号："
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/aal_et_user"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/aal_tv_user"
+            android:layout_centerVertical="true"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/aal_tv_upws"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="密码："
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/aal_et_pwd"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/aal_tv_upws"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/aal_tv_delete"
+            android:layout_width="wrap_content"
+            android:text="清除Cookie？"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/aal_btn_load"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:text="登陆"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/aal_btn_register"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/aal_btn_load"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:text="注册"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lv_remember_pwd"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/aal_check_pwd"
+                android:layout_width="wrap_content"
+                android:checked="false"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="记住密码"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_automatic_login"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/lv_remember_pwd"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/aal_check_login"
+                android:layout_width="wrap_content"
+                android:checked="false"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="自动登陆"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <CheckBox
+        android:id="@+id/aws_check_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到朋友圈" />
+
+    <Button
+        android:id="@+id/aws_btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动微信"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_send_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送文本"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_send_binary_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送二进制图像"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_send_local_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送本地图像"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_send_url_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一个url图像"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一个音频"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一个视频"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一个URL"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/aws_btn_emotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一个表情"
+        android:textSize="22sp" />
+
+</LinearLayout>
